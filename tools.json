@@ -1,0 +1,557 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "An AI assistant for writing, brainstorming, learning, coding, and everyday problem-solving.",
+    "bestFor": "General-purpose AI assistance",
+    "url": "https://chatgpt.com",
+    "tags": [
+      "assistant",
+      "writing",
+      "research",
+      "coding"
+    ],
+    "featured": true
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "An AI assistant for writing, analysis, coding, and working with documents.",
+    "bestFor": "Writing and analysis",
+    "url": "https://claude.ai",
+    "tags": [
+      "assistant",
+      "writing",
+      "analysis"
+    ]
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "Google's AI assistant for brainstorming, learning, planning, and productivity.",
+    "bestFor": "Everyday productivity",
+    "url": "https://gemini.google.com",
+    "tags": [
+      "assistant",
+      "google",
+      "productivity"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "Research",
+    "pricing": "Freemium",
+    "description": "An AI-powered answer and research engine with linked sources for further reading.",
+    "bestFor": "Web research",
+    "url": "https://www.perplexity.ai",
+    "tags": [
+      "search",
+      "research",
+      "answers"
+    ],
+    "featured": true
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "description": "Writing assistance for clarity, tone, grammar, and communication.",
+    "bestFor": "Editing and proofreading",
+    "url": "https://www.grammarly.com",
+    "tags": [
+      "grammar",
+      "editing",
+      "writing"
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "AI-assisted marketing content workflows for teams and brands.",
+    "bestFor": "Marketing teams",
+    "url": "https://www.jasper.ai",
+    "tags": [
+      "marketing",
+      "copywriting",
+      "content"
+    ]
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "category": "Marketing",
+    "pricing": "Freemium",
+    "description": "AI-powered workflows and content support for go-to-market teams.",
+    "bestFor": "Marketing workflows",
+    "url": "https://www.copy.ai",
+    "tags": [
+      "marketing",
+      "sales",
+      "copywriting"
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "category": "Image",
+    "pricing": "Paid",
+    "description": "An AI image-generation platform for creating imaginative visual concepts from prompts.",
+    "bestFor": "Creative image generation",
+    "url": "https://www.midjourney.com",
+    "tags": [
+      "art",
+      "image",
+      "design"
+    ],
+    "featured": true
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "category": "Image",
+    "pricing": "Freemium",
+    "description": "Generative AI tools for creating and editing images and other creative assets.",
+    "bestFor": "Creative design workflows",
+    "url": "https://firefly.adobe.com",
+    "tags": [
+      "image",
+      "design",
+      "editing"
+    ]
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "category": "Image",
+    "pricing": "Freemium",
+    "description": "An AI image generator for creating graphics and images with text elements.",
+    "bestFor": "Text-forward visuals",
+    "url": "https://ideogram.ai",
+    "tags": [
+      "image",
+      "typography",
+      "design"
+    ]
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "category": "Video",
+    "pricing": "Freemium",
+    "description": "AI-powered tools for generating and editing video and creative media.",
+    "bestFor": "AI video creation",
+    "url": "https://runwayml.com",
+    "tags": [
+      "video",
+      "generation",
+      "editing"
+    ]
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "category": "Video",
+    "pricing": "Freemium",
+    "description": "A creative platform for generating and transforming videos with AI.",
+    "bestFor": "Short creative videos",
+    "url": "https://pika.art",
+    "tags": [
+      "video",
+      "animation",
+      "generation"
+    ]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "description": "AI voice and audio tools, including text-to-speech and voice generation.",
+    "bestFor": "AI voiceovers",
+    "url": "https://elevenlabs.io",
+    "tags": [
+      "voice",
+      "audio",
+      "speech"
+    ]
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "description": "An AI music creation platform that turns ideas and prompts into songs.",
+    "bestFor": "AI music creation",
+    "url": "https://suno.com",
+    "tags": [
+      "music",
+      "audio",
+      "creation"
+    ]
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "description": "An AI coding assistant that helps developers write, understand, and improve code.",
+    "bestFor": "Developer coding assistance",
+    "url": "https://github.com/features/copilot",
+    "tags": [
+      "coding",
+      "developer",
+      "autocomplete"
+    ],
+    "featured": true
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "description": "An AI-powered code editor designed to help developers understand and modify codebases.",
+    "bestFor": "AI-assisted coding",
+    "url": "https://www.cursor.com",
+    "tags": [
+      "coding",
+      "editor",
+      "developer"
+    ]
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "description": "An online development environment with AI features for building and deploying apps.",
+    "bestFor": "Building apps in the browser",
+    "url": "https://replit.com",
+    "tags": [
+      "coding",
+      "app builder",
+      "developer"
+    ]
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "description": "AI features in Notion for writing, summarizing, and organizing work.",
+    "bestFor": "Workspace productivity",
+    "url": "https://www.notion.com/product/ai",
+    "tags": [
+      "notes",
+      "productivity",
+      "summaries"
+    ]
+  },
+  {
+    "id": "canva-magic-studio",
+    "name": "Canva Magic Studio",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "AI-assisted design features inside Canva for creating and editing visual content.",
+    "bestFor": "Quick design workflows",
+    "url": "https://www.canva.com/magic/",
+    "tags": [
+      "design",
+      "graphics",
+      "presentations"
+    ]
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "category": "Design",
+    "pricing": "Paid",
+    "description": "Presentation software with AI-assisted slide creation and layout tools.",
+    "bestFor": "Business presentations",
+    "url": "https://www.beautiful.ai",
+    "tags": [
+      "presentation",
+      "slides",
+      "design"
+    ]
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "category": "Marketing",
+    "pricing": "Freemium",
+    "description": "AI writing and marketing platform for creating articles, ads, landing pages, and brand content.",
+    "bestFor": "Marketing content creation",
+    "url": "https://writesonic.com",
+    "tags": [
+      "marketing",
+      "copywriting",
+      "seo"
+    ]
+  },
+  {
+    "id": "surfer-seo",
+    "name": "Surfer",
+    "category": "Marketing",
+    "pricing": "Paid",
+    "description": "Content optimization software that uses AI to help create search-friendly articles.",
+    "bestFor": "SEO content optimization",
+    "url": "https://surferseo.com",
+    "tags": [
+      "seo",
+      "content",
+      "marketing"
+    ]
+  },
+  {
+    "id": "dall-e",
+    "name": "DALL·E",
+    "category": "Image",
+    "pricing": "Paid",
+    "description": "An image generation model for creating original visuals from natural-language descriptions.",
+    "bestFor": "Prompt-based image creation",
+    "url": "https://openai.com/index/dall-e-3/",
+    "tags": [
+      "image",
+      "art",
+      "generation"
+    ],
+    "featured": true
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo.Ai",
+    "category": "Image",
+    "pricing": "Freemium",
+    "description": "A creative AI platform for generating, editing, and customizing images and visual assets.",
+    "bestFor": "Game and concept art",
+    "url": "https://leonardo.ai",
+    "tags": [
+      "image",
+      "art",
+      "concept"
+    ]
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "category": "Image",
+    "pricing": "Free",
+    "description": "An open image generation model used to create and customize visuals from text prompts.",
+    "bestFor": "Custom image generation",
+    "url": "https://stability.ai/stable-image",
+    "tags": [
+      "image",
+      "open source",
+      "generation"
+    ]
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "A video platform for creating presenter-led videos with AI avatars and multilingual voiceovers.",
+    "bestFor": "Training and business videos",
+    "url": "https://www.synthesia.io",
+    "tags": [
+      "video",
+      "avatars",
+      "presentations"
+    ]
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "category": "Video",
+    "pricing": "Freemium",
+    "description": "An audio and video editor that lets you edit media by editing its transcript.",
+    "bestFor": "Podcast and video editing",
+    "url": "https://www.descript.com",
+    "tags": [
+      "video",
+      "audio",
+      "transcription"
+    ]
+  },
+  {
+    "id": "kling-ai",
+    "name": "Kling AI",
+    "category": "Video",
+    "pricing": "Freemium",
+    "description": "A generative video platform for creating short videos and animations from text and images.",
+    "bestFor": "Generative video",
+    "url": "https://klingai.com",
+    "tags": [
+      "video",
+      "animation",
+      "generation"
+    ]
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "description": "An AI coding assistant that provides code completions and chat-based development help.",
+    "bestFor": "Code completion",
+    "url": "https://www.tabnine.com",
+    "tags": [
+      "coding",
+      "autocomplete",
+      "developer"
+    ]
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "description": "An AI-first code editor for planning, writing, and reviewing software with an intelligent agent.",
+    "bestFor": "Agentic software development",
+    "url": "https://windsurf.com",
+    "tags": [
+      "coding",
+      "editor",
+      "developer"
+    ],
+    "featured": true
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "category": "Research",
+    "pricing": "Freemium",
+    "description": "An AI search engine that finds and summarizes evidence from scientific research papers.",
+    "bestFor": "Academic research",
+    "url": "https://consensus.app",
+    "tags": [
+      "research",
+      "papers",
+      "science"
+    ]
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "category": "Research",
+    "pricing": "Freemium",
+    "description": "An AI research assistant for finding papers, extracting key information, and organizing reviews.",
+    "bestFor": "Literature reviews",
+    "url": "https://elicit.com",
+    "tags": [
+      "research",
+      "papers",
+      "summaries"
+    ]
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "category": "Research",
+    "pricing": "Free",
+    "description": "A source-grounded AI notebook that answers questions and creates summaries from your documents.",
+    "bestFor": "Learning from documents",
+    "url": "https://notebooklm.google.com",
+    "tags": [
+      "research",
+      "documents",
+      "learning"
+    ],
+    "featured": true
+  },
+  {
+    "id": "murf",
+    "name": "Murf",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "description": "An AI voice studio for creating natural-sounding voiceovers for videos, presentations, and courses.",
+    "bestFor": "Professional voiceovers",
+    "url": "https://murf.ai",
+    "tags": [
+      "voice",
+      "audio",
+      "voiceover"
+    ]
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "description": "An AI meeting assistant that records, transcribes, summarizes, and shares conversation notes.",
+    "bestFor": "Meeting transcription",
+    "url": "https://otter.ai",
+    "tags": [
+      "audio",
+      "transcription",
+      "meetings"
+    ]
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "A presentation and document tool that turns ideas into polished visual pages with AI.",
+    "bestFor": "AI presentations",
+    "url": "https://gamma.app",
+    "tags": [
+      "design",
+      "presentations",
+      "slides"
+    ],
+    "featured": true
+  },
+  {
+    "id": "framer-ai",
+    "name": "Framer AI",
+    "category": "Design",
+    "pricing": "Freemium",
+    "description": "A website design platform that uses AI to generate responsive layouts and starter content.",
+    "bestFor": "Website design",
+    "url": "https://www.framer.com",
+    "tags": [
+      "design",
+      "websites",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "zapier-central",
+    "name": "Zapier",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "description": "An automation platform with AI features for connecting apps and streamlining repetitive workflows.",
+    "bestFor": "Workflow automation",
+    "url": "https://zapier.com",
+    "tags": [
+      "automation",
+      "productivity",
+      "workflows"
+    ]
+  },
+  {
+    "id": "microsoft-365-copilot",
+    "name": "Microsoft 365 Copilot",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "description": "An AI assistant integrated with Microsoft 365 apps to help with documents, email, meetings, and data.",
+    "bestFor": "Workplace productivity",
+    "url": "https://www.microsoft.com/microsoft-365/copilot",
+    "tags": [
+      "productivity",
+      "office",
+      "assistant"
+    ]
+  }
+]

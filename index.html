@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover useful AI tools for writing, image generation, video, coding, research, audio, design and productivity.">
+  <meta name="theme-color" content="#ffffff">
+  <title>FindMyAI — Discover the right AI tool</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#"><span class="brand-icon">⌕</span> FindMy<span>AI</span></a>
+    <nav id="nav">
+      <a href="#explore">Explore tools</a><a href="#categories">Categories</a><a href="#about">About</a>
+    </nav>
+    <a class="header-btn" href="#explore">Find a tool ↗</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><i></i> YOUR AI DISCOVERY HUB</div>
+      <h1>Find the right AI tool.<br><span>Make more possible.</span></h1>
+      <p class="hero-text">A thoughtfully curated directory of AI tools to help you create, work smarter, and bring your ideas to life.</p>
+      <form class="search-box" id="searchForm">
+        <span class="search-symbol">⌕</span>
+        <input id="searchInput" type="search" placeholder="What do you want to do with AI?" autocomplete="off">
+        <button type="submit">Search tools ↗</button>
+      </form>
+      <div class="popular"><b>Popular:</b>
+        <button data-search="writing">AI writing</button>
+        <button data-search="image">Image generator</button>
+        <button data-search="coding">Coding assistant</button>
+      </div>
+      <div class="hero-points">
+        <div><b>Discover</b><span>tools for every task</span></div>
+        <div><b>Compare</b><span>free and paid options</span></div>
+        <div><b>Get creating</b><span>in less time</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div>✦ <span>Curated discoveries</span></div>
+      <div>✓ <span>Clear tool information</span></div>
+      <div>⚡ <span>Made for getting things done</span></div>
+    </section>
+
+    <section class="directory section" id="explore">
+      <div class="section-head">
+        <div><div class="eyebrow left">EXPLORE THE DIRECTORY</div><h2>Find your next favorite tool</h2><p>Explore useful AI tools by category, use case, or pricing.</p></div>
+        <button id="featuredBtn" class="featured-btn">☆ Featured picks</button>
+      </div>
+
+      <div class="directory-layout">
+        <aside class="sidebar" id="categories">
+          <div class="filter-title">Categories</div>
+          <div id="categoryList" class="category-list"></div>
+          <hr>
+          <div class="filter-title">Pricing</div>
+          <div id="pricingList" class="pricing-list">
+            <label><input type="radio" name="pricing" value="All" checked> All pricing</label>
+            <label><input type="radio" name="pricing" value="Free"> Free</label>
+            <label><input type="radio" name="pricing" value="Freemium"> Freemium</label>
+            <label><input type="radio" name="pricing" value="Paid"> Paid</label>
+          </div>
+          <div class="sidebar-note"><b>✧ Keep discovering</b><p>New AI products appear all the time. Check back as the directory grows.</p></div>
+        </aside>
+
+        <div class="results">
+          <div class="results-bar"><div><b id="resultCount">0 tools</b> to explore</div><button id="clearBtn">Clear filters ×</button></div>
+          <div id="toolsGrid" class="tools-grid"></div>
+          <div id="emptyState" class="empty-state" hidden><div class="empty-icon">⌕</div><h3>No tools found</h3><p>Try another search or remove a filter.</p><button id="resetBtn">Show all tools</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-cta section" id="about">
+      <div class="cta-icon">✧</div>
+      <div><div class="eyebrow left">LESS SEARCHING, MORE CREATING</div><h2>Your next great idea starts with the right tool.</h2><p>Find practical AI tools for the way you work, learn, and create.</p></div>
+      <a href="#explore">Explore directory ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#"><span class="brand-icon">⌕</span> FindMy<span>AI</span></a>
+    <p>Discover useful AI tools. Make more possible.</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> FindMyAI. A Nishu Blogs project.</span><a href="https://nishublogs.online" target="_blank" rel="noopener">Nishu Blogs ↗</a></div>
+  </footer>
+
+  <dialog id="toolDialog" class="tool-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close">×</button>
+    <div class="dialog-avatar" id="dialogAvatar"></div>
+    <div class="dialog-category" id="dialogCategory"></div>
+    <h2 id="dialogName"></h2>
+    <p id="dialogDescription"></p>
+    <div class="best-for"><b>Best for</b><span id="dialogBestFor"></span></div>
+    <div class="tags" id="dialogTags"></div>
+    <a class="dialog-visit" id="dialogVisit" target="_blank" rel="noopener">Visit website ↗</a>
+    <small>Pricing and features may change. Check the provider's website for current details.</small>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
